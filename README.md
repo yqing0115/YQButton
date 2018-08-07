@@ -1,6 +1,7 @@
 # YQButton
 
 ## 自由设置按钮上的Image和Label的位置
+![Simulator_Screen_Shot_iPhone6s_YQButtonDemo.png](https://raw.githubusercontent.com/yqing0115/YQButton/master/Simulator_Screen_Shot_iPhone6s_YQButtonDemo.png)
 
 ## 1.图片在标题上方
 ```
