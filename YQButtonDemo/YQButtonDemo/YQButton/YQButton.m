@@ -3,7 +3,7 @@
 //  UIButtonTest
 //
 //  Created by 杨清 on 2017/6/13.
-//  Copyright © 2017年 crazyit.org. All rights reserved.
+//  Copyright © 2017年 Soargift. All rights reserved.
 //
 
 #import "YQButton.h"
