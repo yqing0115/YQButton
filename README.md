@@ -12,6 +12,9 @@ btn1.layer.borderColor = UIColor.grayColor.CGColor;
 [btn1 setImage:[UIImage imageNamed:@“icon_photo”] forState:UIControlStateNormal];
 [btn1 setTitle:@“title text” forState:UIControlStateNormal];
 [btn1 setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+btn1.tapAction = ^(YQButton *sender) {
+        NSLog(@"button be tapped !!!");
+};
 [self.view addSubview:btn1];
 ```
   

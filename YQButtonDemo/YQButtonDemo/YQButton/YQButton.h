@@ -1,14 +1,16 @@
 //
 //  YQButton.h
-//  UIButtonTest
+//  YQButton
 //
 //  Created by 杨清 on 2017/6/13.
-//  Copyright © 2017年 Soargift. All rights reserved.
+//  Copyright © 2017年 QuinceyYang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface YQButton : UIButton
+
+@property (nonatomic, copy) void (^tapAction)(YQButton *sender);
 
 /**
  * 图片在上

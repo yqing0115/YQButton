@@ -3,7 +3,7 @@
 //  YQButtonDemo
 //
 //  Created by 杨清 on 2018/8/7.
-//  Copyright © 2018年 Soargift. All rights reserved.
+//  Copyright © 2018年 QuinceyYang. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -26,6 +26,9 @@
     [btn1 setImage:[UIImage imageNamed:@"icon_photo"] forState:UIControlStateNormal];
     [btn1 setTitle:@"title text" forState:UIControlStateNormal];
     [btn1 setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
+    btn1.tapAction = ^(YQButton *sender) {
+        NSLog(@"button be tapped !!!");
+    };
     [self.view addSubview:btn1];
     
     //图片在标题下方
